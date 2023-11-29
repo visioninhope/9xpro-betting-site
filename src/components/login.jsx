@@ -12,23 +12,22 @@ function Login() {
           {/* Left Side */}
           <div className="p-6 md:p-20">
             {/* Top Content */}
-            <h2 className="font-mono mb-4 text-5xl font-bold capitalize text-rose-700 text-center">
+            <h2 className="mb-4 font-mono text-5xl font-bold text-center capitalize text-rose-700">
               Cupid x Pro
             </h2>
-            <h2 className="font-mono mb-5 text-3xl font-bold capitalize text-black text-center">
+            <h2 className="mb-5 font-mono text-3xl font-bold text-center text-black capitalize">
               Login
             </h2>
-            <p className="max-w-full mb-12 font-sans font-light text-gray-600 text-center">
+            <p className="max-w-full mb-12 font-sans font-light text-center text-gray-600">
               Log in to your Account
             </p>
             <div className="relative flex mb-4 md:mb-8">
               <input
                 type="text"
-                className="w-full py-4 px-8 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light 
-                "
+                className="w-full px-8 py-4 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light "
                 placeholder="Enter Your Email Address"
               />
-              <i className="absolute left-2 top-1/2 -translate-y-1/2">
+              <i className="absolute -translate-y-1/2 left-2 top-1/2">
                 <FaUser />
               </i>
             </div>
@@ -36,11 +35,10 @@ function Login() {
             <div className="relative flex">
               <input
                 type="password"
-                className="w-full py-4 px-8 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light
-                "
+                className="w-full px-8 py-4 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light "
                 placeholder="Enter Your Password"
               />
-              <i className="absolute left-2 top-1/2 -translate-y-1/2">
+              <i className="absolute -translate-y-1/2 left-2 top-1/2">
                 <RiLockPasswordFill />
               </i>
             </div>
@@ -49,9 +47,9 @@ function Login() {
           {/* Right Side */}
 
           <img
-            src="./assets/betting.jpg"
+            src="./assets/playing-cards.jpg"
             alt=""
-            className="w-[430px] hidden md:block"
+            className="w-[400px] hidden md:block"
           />
         </div>
       </div>
