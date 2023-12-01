@@ -20,32 +20,82 @@ function Statement() {
               </span>
             </div>
             {/* Table */}
-            {/* <table className="min-w-full mt-6 border border-gray-300 md:mt-9">
-              <thead>
+            <div className="overflow-x-auto">
+              <div className="w-full ">
+                <div className="flex ">
+                
+                    <td className=" border-b bg-[#233388] text-white border border-r-2 px-1 md:px-3 md:text-lg">
+                      Date
+                    </td>
+                    <td className=" border-b bg-[#233388] text-white border border-r-2 px-1 md:px-2 md:text-lg">
+                      Description
+                    </td>
+                    <td className=" border-b bg-[#233388] text-white border border-r-2 px-1 md:px-2 md:text-lg">
+                      Prev Bal
+                    </td>
+                    <td className=" border-b bg-[#233388] text-white border border-r-2 px-1 md:px-2 md:text-lg">
+                      Credit
+                    </td>
+                    <td className=" border-b bg-[#233388] text-white border border-r-2 px-1 md:px-2 md:text-lg">
+                      Debit
+                    </td>
+                    <td className=" border-b bg-[#233388] text-white border  px-1 md:px-3 md:text-lg">
+                      Balance
+                    </td>
+                 
+                </div>
+
+                <div className="">
+                  <div className="flex mx-auto">
+                    <div className="p-1 text-sm border-b">30-08-23</div>
+                    <div className="p-1 text-sm border-b">
+                      Won India vs Pakistan
+                    </div>
+                    <div className="p-1 text-sm border-b">352358.00</div>
+                    <div className="p-1 border-b ">0.00</div>
+                    <div className="p-1 border-b">5000.00</div>
+                    <div className="p-1 border-b">347358.00</div>
+                  </div>
+                  <div className="flex mx-auto ">
+                    <div className="p-1 text-sm border-b">30-08-23</div>
+                    <div className="p-1 text-sm border-b">
+                      Won India vs Pakistan
+                    </div>
+                    <div className="p-1 text-sm border-b">352358.00</div>
+                    <div className="p-1 border-b ">0.00</div>
+                    <div className="p-1 border-b">5000.00</div>
+                    <div className="p-1 border-b">347358.00</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* <table className="mt-6 md:mt-9 min-w-fit">
+              <thead className="">
                 <tr>
-                  <th className=" border-b bg-[#233388] text-white border border-r-4 md:p-1 md:text-lg ">
+                  <td className=" border-b bg-[#233388] text-white border border-r-4 px-1  md:text-md ">
                     Date
-                  </th>
-                  <th className=" border-b bg-[#233388] text-white border border-r-4 md:p-1 md:text-lg ">
+                  </td>
+                  <td className=" border-b bg-[#233388] text-white border  px-1 border-r-4 md:text-md ">
                     Description
-                  </th>
-                  <th className=" border-b bg-[#233388] text-white border border-r-4 md:p-1 md:text-lg ">
+                  </td>
+                  <td className=" border-b bg-[#233388] text-white border  px-1 border-r-4 md:text-md ">
                     Prev.Bal
-                  </th>
-                  <th className=" border-b bg-[#233388] text-white border border-r-4 md:p-1 md:text-lg ">
+                  </td>
+                  <td className=" border-b bg-[#233388] text-white border  px-1 border-r-4  md:text-md ">
                     Credit
-                  </th>
-                  <th className=" border-b bg-[#233388] text-white border border-r-4 md:p-1 md:text-lg ">
+                  </td>
+                  <td className=" border-b bg-[#233388] text-white border  px-1 border-r-4 md:text-md ">
                     Debit
-                  </th>
-                  <th className=" border-b bg-[#233388] text-white border  md:p-1 md:text-lg ">
+                  </td>
+                  <td className=" border-b bg-[#233388] text-white px-1 md:text-md ">
                     Balance
-                  </th>
+                  </td>
                 </tr>
               </thead>
               <tbody>
                 <tr className="text-center bg-gray-100">
-                  <td className="p-2 border-b">30-08-23</td>
+                  <td className="p-2 text-sm border-b ">30-08-23</td>
                   <td className="p-2 border-b">Won India vs Pakistan</td>
                   <td className="p-2 border-b">Row 1, Cell 3</td>
                 </tr>

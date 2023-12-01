@@ -5,7 +5,7 @@ function Header() {
     <>
       <header className="flex justify-around items-center bg-[#514a97] space-x-14 border border-t-4 border-b-4 shadow-md border-[#ff8227] p-1 md:space-x-20">
         <div className="flex-1 p-1">
-          <img src="/assets/logo.png" className="w-full h-auto " />
+          <img src="/assets/logo.png" className="h-auto w-14 " />
         </div>
 
         <div className="flex-1 p-1 leading-tight text-white md:text-lg">
