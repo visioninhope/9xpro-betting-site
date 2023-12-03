@@ -22,49 +22,36 @@ function Ledger() {
 
             {/* Table */}
 
-            <div className="min-h-screen overflow-x-auto">
-              <div className="w-full ">
-                <div className="flex ">
-                  <td className=" border-b text-lg bg-[#233388] text-white border border-r-2 px-1 md:px-4 md:text-lg">
-                    Match Name
-                  </td>
-                  <td className=" border-b text-lg bg-[#233388] text-white border border-r-2 px-1 md:px-2 md:text-lg ">
-                    Won By
-                  </td>
-                  <td className=" border-b text-lg bg-[#233388] text-white border border-r-2 px-1 md:px-2 md:text-lg">
-                    Won
-                  </td>
-                  <td className=" text-lg border-b bg-[#233388] text-white border border-r-2 px-1 md:px-2 md:text-lg">
-                    Lost
-                  </td>
-                  <td className=" text-lg border-b bg-[#233388] text-white border border-r-2 px-1 md:px-4 md:text-lg">
-                    Balance
-                  </td>
-                </div>
-
-                <div className="">
-                  <div className="flex mx-auto">
-                    <div className="p-1 text-sm border-b">
-                      Won India vs Pakistan
-                    </div>
-                    <div className="p-1 text-sm border-b">India</div>
-                    <div className="p-1 text-sm border-b ">0.00</div>
-                    <div className="p-1 text-sm border-b ">5000.00</div>
-                    <div className="p-1 text-sm border-b ">347358.00</div>
-                  </div>
-
-                  <div className="flex mx-auto ">
-                    <div className="p-1 text-sm border-b">
-                      Won -10 over run CK
-                    </div>
-                    <div className="p-1 text-sm border-b">CK</div>
-                    <div className="p-1 text-sm border-b ">10000.00</div>
-                    <div className="p-1 text-sm border-b ">0.00</div>
-                    <div className="p-1 text-sm border-b ">357358.00</div>
-                  </div>
-                </div>
-              </div>
+            <div class="overflow-x-auto">
+              <table class=" mx-auto border-gray-300 md:w-full text-sm md:text-base mt-6 md:mt-8 ">
+                <thead className="bg-[#233388] text-white">
+                  <tr>
+                    <th className="border-r-2 border-[#82c6db]">Match Name</th>
+                    <th className="border-r-2 border-[#82c6db]">Won By</th>
+                    <th className="border-r-2 border-[#82c6db]">Won</th>
+                    <th className="border-r-2 border-[#82c6db]">Lost</th>
+                    <th className="">Balance</th>
+                  </tr>
+                </thead>
+                <tbody class="text-center text-sm bg-[#82c6db]">
+                  <tr>
+                    <td class="px-4 py-2 border-t">Won India vs Pakistan</td>
+                    <td className="px-4 py-2 border-t">India</td>
+                    <td className="px-4 py-2 border-t">0.00</td>
+                    <td className="px-4 py-2 border-t">5000</td>
+                    <td className="px-4 py-2 border-t">347358.00</td>
+                  </tr>
+                  <tr>
+                    <td class="px-4 py-2 border-t">Won -10 over run CK</td>
+                    <td class="px-4 py-2 border-t">CK</td>
+                    <td class="px-4 py-2 border-t">1000.00</td>
+                    <td class="px-4 py-2 border-t">0.00</td>
+                    <td class="px-4 py-2 border-t">347358.00</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
+
           </div>
         </div>
       </div>
