@@ -7,6 +7,7 @@ import Statement from "./pages/Statement.jsx";
 import Header from "./components/Header.jsx";
 import Allgames from "./pages/Allgames.jsx";
 import Ledger from "./pages/Ledger.jsx";
+import ChangePassword from "./pages/ChangePassword.jsx";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
       <Statement />
       <Allgames />
       <Ledger />
+      <ChangePassword />
     </>
 
     // <>

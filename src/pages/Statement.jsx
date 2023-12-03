@@ -22,8 +22,8 @@ function Statement() {
 
             {/* Table */}
 
-            <div class="overflow-x-auto">
-              <table class=" mx-auto border-gray-300 md:w-full text-sm md:text-base mt-6 md:mt-8 ">
+            <div className="overflow-x-auto">
+              <table className="mx-auto mt-6 text-sm border-gray-300 md:w-full md:text-base md:mt-8">
                 <thead className="bg-[#24338a] text-white">
                   <tr className>
                     <th className="border-r-2 border-[#82c6db]">Date</th>
@@ -34,9 +34,9 @@ function Statement() {
                     <th className="">Balance</th>
                   </tr>
                 </thead>
-                <tbody class="text-center text-sm bg-[#82c6db]">
+                <tbody className="text-center text-sm bg-[#82c6db]">
                   <tr>
-                    <td class="px-4 py-2 border-t">30-08-23</td>
+                    <td className="px-4 py-2 border-t">30-08-23</td>
                     <td className="px-4 py-2 border-t">
                       Won India vs Pakistan
                     </td>
@@ -46,12 +46,12 @@ function Statement() {
                     <td className="px-4 py-2 border-t">347358</td>
                   </tr>
                   <tr>
-                    <td class="px-4 py-2 border-t">30-08-23</td>
-                    <td class="px-4 py-2 border-t">Won -10 over run CK</td>
-                    <td class="px-4 py-2 border-t">347358</td>
-                    <td class="px-4 py-2 border-t">10000</td>
-                    <td class="px-4 py-2 border-t">0.00</td>
-                    <td class="px-4 py-2 border-t">357358</td>
+                    <td className="px-4 py-2 border-t">30-08-23</td>
+                    <td className="px-4 py-2 border-t">Won -10 over run CK</td>
+                    <td className="px-4 py-2 border-t">347358</td>
+                    <td className="px-4 py-2 border-t">10000</td>
+                    <td className="px-4 py-2 border-t">0.00</td>
+                    <td className="px-4 py-2 border-t">357358</td>
                   </tr>
                 </tbody>
               </table>
