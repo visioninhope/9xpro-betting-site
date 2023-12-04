@@ -11,7 +11,7 @@ function ChangePassword() {
           {/* Header */}
           <Header />
           {/* Hero Section */}
-          <div className="relative bg-[#82c6db] w-full pb-8">
+          <div className="relative bg-[#82c6db] w-full pb-8 min-h-screen">
             <div className="bg-[#d9d9d9] w-full h-11 mt-4 md:h-14 md:mt-8 shadow-md flex ">
               <IoReturnUpBackSharp className="flex w-6 h-6 mt-2 ml-2 md:w-9 md:h-9" />
 
@@ -20,9 +20,9 @@ function ChangePassword() {
               </span>
             </div>
 
-            <div class="mb-6 mt-10 mx-auto flex flex-col justify-center items-start ml-10 ">
+            <div className="flex flex-col items-start justify-center mx-auto mt-10 mb-6 ml-10 ">
               <label
-                for="default-input"
+                
                 className="items-start justify-start block mb-2 text-sm font-semibold text-gray-900 text"
               >
                 OLD PASSWORD
@@ -30,14 +30,14 @@ function ChangePassword() {
 
               <input
                 type="text"
-                id="default-input"
+               
                 className="bg-[#82c6db] border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 p-2"
               />
             </div>
 
-            <div class="mb-6 mt-10 mx-auto flex flex-col justify-center items-start ml-10 ">
+            <div className="flex flex-col items-start justify-center mx-auto mt-10 mb-6 ml-10 ">
               <label
-                for="default-input"
+               
                 className="items-start justify-start block mb-2 text-sm font-semibold text-gray-900 text"
               >
                 NEW PASSWORD
@@ -45,14 +45,14 @@ function ChangePassword() {
 
               <input
                 type="text"
-                id="default-input"
+               
                 className="bg-[#82c6db] border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 p-2"
               />
             </div>
 
-            <div class="mb-6 mt-10 mx-auto flex flex-col justify-center items-start ml-10 ">
+            <div className="flex flex-col items-start justify-center mx-auto mt-10 mb-6 ml-10 ">
               <label
-                for="default-input"
+                
                 className="items-start justify-start block mb-2 text-sm font-semibold text-gray-900 text"
               >
                 CONFIRM PASSWORD
@@ -60,7 +60,7 @@ function ChangePassword() {
 
               <input
                 type="text"
-                id="default-input"
+              
                 className="bg-[#82c6db] border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 p-2"
               />
             </div>
