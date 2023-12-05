@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import { IoReturnUpBackSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import PasswordApp from "../components/PasswordInput";
 
 function ChangePassword() {
   return (
@@ -23,15 +24,13 @@ function ChangePassword() {
               </span>
             </div>
 
-            <div className="flex flex-col items-start justify-center mx-auto mt-10 mb-6 ml-10 ">
+            <div className="flex flex-col items-start justify-center mx-auto mt-10 mb-6 ml-10">
               <label className="items-start justify-start block mb-2 text-sm font-semibold text-gray-900 text">
                 OLD PASSWORD
               </label>
 
-              <input
-                type="text"
-                className="bg-[#82c6db] border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 p-2"
-              />
+              <PasswordApp />
+          
             </div>
 
             <div className="flex flex-col items-start justify-center mx-auto mt-10 mb-6 ml-10 ">
@@ -39,10 +38,10 @@ function ChangePassword() {
                 NEW PASSWORD
               </label>
 
-              <input
-                type="text"
-                className="bg-[#82c6db] border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 p-2"
-              />
+              
+              <PasswordApp />
+
+         
             </div>
 
             <div className="flex flex-col items-start justify-center mx-auto mt-10 mb-6 ml-10 ">
@@ -50,10 +49,8 @@ function ChangePassword() {
                 CONFIRM PASSWORD
               </label>
 
-              <input
-                type="text"
-                className="bg-[#82c6db] border border-black text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 p-2"
-              />
+              <PasswordApp />
+             
             </div>
           </div>
         </div>

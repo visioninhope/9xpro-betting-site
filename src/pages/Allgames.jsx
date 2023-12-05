@@ -13,7 +13,7 @@ function Allgames() {
         {/* Hero Section */}
         <div className="relative bg-[#82c6db] w-full pb-8 min-h-full">
           <div className="bg-[#d9d9d9] w-full h-11 mt-4 md:h-14 md:mt-8 shadow-md flex ">
-            <Link to ="/">
+            <Link to="/">
               <IoReturnUpBackSharp className="flex w-6 h-6 mt-2 ml-2 md:w-9 md:h-9" />
             </Link>
 
