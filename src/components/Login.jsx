@@ -42,6 +42,24 @@ function Login() {
                 <RiLockPasswordFill />
               </i>
             </div>
+
+            {/* Middle Content */}
+            <div></div>
+
+            {/* Border */}
+            <div className="mt-8 border border-b-b-gray-300"></div>
+
+            {/* Bottom Content */}
+            {/* <p className="py-6 text-sm font-thin text-center text-gray-400">
+              Login
+            </p> */}
+
+            {/* Bottom Buttons Container */}
+            <div className="flex flex-col py-4 space-x-0 space-y-6 md:flex-row md:space-x-4 md:space-y-0">
+              <button className="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition duration-150 w-full">
+                Login
+              </button>
+            </div>
           </div>
 
           {/* Right Side */}

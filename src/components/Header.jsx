@@ -1,5 +1,7 @@
 import React from "react";
 import { LuLogOut } from "react-icons/lu";
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <>
@@ -13,10 +15,12 @@ function Header() {
           {/* 2nd content */}
         </div>
 
-        <div className="flex-col items-center justify-center flex-1 p-1 ">
-          <LuLogOut className="w-6 h-6 m-auto md:w-8 md:h-8" />
-          <span className="font-semibold text-white md:text-lg ">Logout</span>
-        </div>
+        <Link to="/login">
+          <div className="flex-col items-center justify-center p-1 ">
+            <LuLogOut className="w-6 h-6 m-auto md:w-8 md:h-8" />
+            <span className="font-semibold text-white md:text-lg ">Logout</span>
+          </div>
+        </Link>
       </header>
     </>
   );
