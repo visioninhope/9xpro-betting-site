@@ -8,6 +8,16 @@ import { Link } from "react-router-dom";
 
 function Profile() {
   const [isOpen, setIsOpen] = useState(false);
+  const [selectedValue, setSelectedValue] = useState(null);
+
+  const handleToggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleSelectOption = (value) => {
+    setSelectedValue(value);
+    setIsOpen(false);
+  };
 
   return (
     <>
@@ -42,22 +52,27 @@ function Profile() {
 
                 {/* Trigger button for the dropdown */}
                 <button
-                  onClick={() => setIsOpen((prev) => !prev)}
+                  onClick={handleToggleDropdown}
                   className="flex items-center justify-center px-2 py-1 mx-auto ml-6 bg-gray-100 border border-gray-300 rounded"
                 >
-                  6
+                  {selectedValue ? selectedValue : "6"}
                   {!isOpen ? (
                     <IoMdArrowDropdown className="ml-3 border-l-2 " />
                   ) : (
                     <IoMdArrowDropup className="ml-3 border-l-2" />
                   )}
                   {isOpen && (
-                    <div className="absolute flex flex-col items-start px-3 bg-gray-100 top-8">
+                    <div className="absolute flex flex-col items-start px-2 bg-gray-100 rounded mr-7 top-8">
                       {numbers.map((number) => {
                         const { id, item } = number;
                         return (
                           <ul className="hover:bg-gray-300" key={id}>
-                            <li>{item}</li>
+                            <li
+                              onClick={() => handleSelectOption(item)}
+                              className="border-b-2 border-gray-300 "
+                            >
+                              {item}
+                            </li>
                           </ul>
                         );
                       })}
